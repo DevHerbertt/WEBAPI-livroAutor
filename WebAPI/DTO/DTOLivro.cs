@@ -2,10 +2,9 @@
 
 namespace WebAPI.DTO
 {
-    public interface DTOLivro
+    public class DTOLivro
     {
-        public string title { get; set; }
-
-        public AutorModel Autor { get; set; }
+        public string title { get; set; } = string.Empty;
+        public AutorModel Autor { get; set; } = null!;
     }
 }

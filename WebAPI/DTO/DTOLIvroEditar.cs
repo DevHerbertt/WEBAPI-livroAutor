@@ -1,6 +1,6 @@
 ﻿namespace WebAPI.DTO
 {
-    public interface DTOLIvroEditar : DTOLivro
+    public class DTOLIvroEditar : DTOLivro
     {
         public int id { get; set; }
     }
